@@ -1,0 +1,7 @@
+﻿Create table client ( 
+id int primary key identity(1,1), 
+name nvarchar(100),
+email nvarchar(30)
+)
+
+insert into client (name,email) values ('Carla','carla@abc.ca')
