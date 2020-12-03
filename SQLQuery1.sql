@@ -1,0 +1,1 @@
+﻿select * from client where id=5;

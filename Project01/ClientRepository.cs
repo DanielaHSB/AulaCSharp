@@ -53,7 +53,7 @@ namespace Project01
 
             }
         }
-        public Client SelectClientById(int id)
+        public Client SelectById(int id)
         {
             string query = "select * from client where id=@id";
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -71,6 +71,33 @@ namespace Project01
                     return client;
                 }
                 return null;
+            }
+        }
+
+        public void Delete(int id)
+        {
+            string query = "delete from client where id=@id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", id);
+                command.ExecuteNonQuery();
+
+            }
+        }
+        public void Update(Client client)
+        {
+            string query = "update client set name=@name, email=@email where id=@id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", client.IdClient);
+                command.Parameters.AddWithValue("@name", client.Name);
+                command.Parameters.AddWithValue("@email", client.Email);
+                command.ExecuteNonQuery();
+
             }
         }
 
