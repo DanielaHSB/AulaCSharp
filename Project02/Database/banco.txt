@@ -1,0 +1,19 @@
+create table Employee (
+IdEmployee int primary key identity(1,1),
+Name nvarchar(100),
+Email nvarchar (100),
+Salary decimal (18,2),
+Position nvarchar (30),
+Department nvarchar (30)
+);
+
+create table Address (
+IdAddress int primary key identity(1,1),
+StreetName nvarchar(100),
+StreetNumber nvarchar(10),
+PostalCode nvarchar(20),
+City nvarchar(20),
+Province nvarchar(20),
+IdEmployee int 
+foreign key(IdEmployee) references Employee(IdEmployee)
+);

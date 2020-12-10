@@ -1,0 +1,12 @@
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Database\Database1.mdf
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Database\Database1_log.ldf
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Project02.exe.config
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Project02.exe
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Project02.pdb
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Dapper.dll
+C:\Users\daniela\source\repos\AulaCSharp\Project02\bin\Debug\Dapper.xml
+C:\Users\daniela\source\repos\AulaCSharp\Project02\obj\Debug\Project02.csprojAssemblyReference.cache
+C:\Users\daniela\source\repos\AulaCSharp\Project02\obj\Debug\Project02.csproj.CoreCompileInputs.cache
+C:\Users\daniela\source\repos\AulaCSharp\Project02\obj\Debug\Project02.csproj.CopyComplete
+C:\Users\daniela\source\repos\AulaCSharp\Project02\obj\Debug\Project02.exe
+C:\Users\daniela\source\repos\AulaCSharp\Project02\obj\Debug\Project02.pdb
