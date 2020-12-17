@@ -14,6 +14,7 @@ namespace Project02.Entity
         private string city;
         private string province;
         private int idEmployee;
+        private int idAddress;
 
         public string StreetName { get => streetName; set => streetName = value; }
         public string StreetNumber { get => streetNumber; set => streetNumber = value; }
@@ -21,6 +22,7 @@ namespace Project02.Entity
         public string City { get => city; set => city = value; }
         public string Province { get => province; set => province = value; }
         public int IdEmployee { get => idEmployee; set => idEmployee = value; }
+        public int IdAddress { get => idAddress; set => idAddress = value; }
 
         public Address(string streetName, string streetNumber, string postalCode, string city, string province)
         {

@@ -15,10 +15,15 @@ namespace Project02
             //employeeController.InsertEmployee();
 
             AddressController addressController = new AddressController();
-            //   addressController.InsertAddress();
+            //addressController.InsertAddress();
 
-            employeeController.SelectAllEmployees();
+            //employeeController.SelectAllEmployees();
+
+            addressController.SelectAllAddress();
+
             Console.ReadKey();
+
+
             
         }
     }
